@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+.card{
+    background-color: yellow;
+    padding: 30px;
+    border-radius: 12px;
+
+}
+
+.h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#searchBtn{
+    padding:5px 5px;
+    border-radius: 10px;   
+}
+#searchBtn:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.error{
+    color: red;
+    background-color: aliceblue;
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
